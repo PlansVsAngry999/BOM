@@ -1,0 +1,31 @@
+<!--Página de inicio de sesión. (Conectado con 'script_in.js' y 'style_in')-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión - BOM</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style_in.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Iniciar sesión</h2>
+        <form id="loginForm">
+                <!--Solicitar nombre de usuario (=js)-->
+            <label for="userID">Nombre de usuario:</label>
+            <input type="text" id="userID" name="userNOM" required>
+                <!--Solicitar nombre de usuario (=js)-->
+            <br>
+            <label for="pwdID">Contrasena</label>
+            <input type="password" id="pwdID" name="pwdNOM" required>
+            <br>
+                <!--Enviar información (=js)-->
+            <button type="submit">Iniciar sesión</button>
+        </form>
+        <p id="msgError" class="pError"></p>
+    </div>
+    <!--------------------------------Script----------------------------->
+    <script src="script_in.js"></script>
+</body>
+</html>

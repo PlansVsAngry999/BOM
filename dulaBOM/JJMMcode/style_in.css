@@ -1,0 +1,58 @@
+/*Etiquetas*/
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    background-color: #000000;
+    /**/
+    background-image: url('D:/HTML5/dulaBOM/pagImg/pag_backgroundBOM.gif');
+    background-size: 80%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+label, input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input{
+    background-color: gray;
+    font-size: large;
+    color:#fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    background-color:#A784F0;
+    color:#fff;
+    cursor: pointer;
+}
+/*Clases*/
+.container{
+    margin-top: 10%;
+    color:#fff;
+    background-color: #3232327e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+.pError{
+    color:rgb(255, 68, 43);
+    margin-top: 10px;
+}
+.logoBOM_gif{
+    width: 100%;
+    
+}
+/*Hover's*/
+button:hover{
+    background-color: #7b48eb;
+}
